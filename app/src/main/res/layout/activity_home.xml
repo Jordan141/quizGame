@@ -12,5 +12,63 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/create_a_quiz_for_your_friends"
+        android:id="@+id/lblMessage"
+        android:layout_marginTop="41dp"
+        android:textColor="@android:color/background_dark"
+        android:textIsSelectable="true"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_quiz"
+        android:id="@+id/btnCreate"
+        android:background="@drawable/buttonbg"
+        style="?android:attr/borderlessButtonStyle"
+        android:textColor="#ffffffff"
+        android:textSize="16sp"
+        android:layout_marginBottom="42dp"
+        android:layout_above="@+id/btnResults"
+        android:layout_alignStart="@+id/btnResults" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/see_results"
+        android:id="@+id/btnResults"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/btnAllQuiz"
+        android:layout_alignStart="@+id/btnAllQuiz"
+        android:background="@drawable/buttonbg"
+        style="?android:attr/borderlessButtonStyle"
+        android:textColor="#ffffffff"
+        android:textSize="16sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/see_all_quizzes"
+        android:id="@+id/btnAllQuiz"
+        android:layout_below="@+id/btnResults"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:background="@drawable/buttonbg"
+        style="?android:attr/borderlessButtonStyle"
+        android:textColor="#ffffffff"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/how_well_do_your_friends_know_you"
+        android:id="@+id/lblMessageTwo"
+        android:layout_below="@+id/lblMessage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/background_dark" />
 </RelativeLayout>

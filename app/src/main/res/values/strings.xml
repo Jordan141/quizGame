@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Quiz Game</string>
+    <string name="how_well_do_your_friends_know_you">How well do your friends know you?</string>
+    <string name="create_quiz">Create Quiz</string>
+    <string name="create_a_quiz_for_your_friends">Create a quiz for your friends!</string>
+    <string name="see_results">See Results</string>
+    <string name="see_all_quizzes">See all quizzes</string>
 </resources>
